@@ -91,7 +91,18 @@
           </li><!-- / Travel -->
           <li class="dropdown ">
             <a href="{{ route('shop.contact')}}">Contact Us</a>
-          </li><!-- / Travel -->
+          </li>
+          <!-- / Travel -->
+          @auth 
+          <li class="dropdown ">
+            <a href="{{ route('customer.dashboard.index')}}">Account</a>
+          </li>
+          @endauth
+          @guest 
+          <li class="dropdown ">
+            <a href="{{ route('login')}}">Login</a>
+          </li>
+          @endguest
         </ul>
         <!-- / .nav .navbar-nav -->
 

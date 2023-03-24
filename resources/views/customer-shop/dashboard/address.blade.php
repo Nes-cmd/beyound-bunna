@@ -1,24 +1,12 @@
 <x-customer-layout>
-@section('title') - Customer Adress  @endsection
-<div class="main-wrapper">
-
-    <!-- breadcrumb -->
-    <nav class="bg-gray py-3">
-        <div class="container">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">My Accounts</li>
-            </ol>
-        </div>
-    </nav>
-    <!-- /breadcrumb -->
-
-    <section class="user-dashboard section">
+    @section('title') - Customer Adress @endsection
+    @include('customer-shop.blocks.breadcrumb', ['page' => 'My Account / Adress'])
+    <section class="user-dashboard page-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <ul class="list-inline dashboard-menu text-center">
-                    <li class="list-inline-item"><a  href="{{route('customer.dashboard.index')}}">Dashboard</a></li>
+                        <li class="list-inline-item"><a href="{{route('customer.dashboard.index')}}">Dashboard</a></li>
                         <li class="list-inline-item"><a href="{{route('customer.dashboard.order')}}">Orders</a></li>
                         <li class="list-inline-item"><a class="active" href="{{route('customer.dashboard.address')}}">Address</a></li>
                         <li class="list-inline-item"><a href="{{route('customer.dashboard.profile')}}">Profile Details</a></li>
@@ -46,25 +34,12 @@
                                         <td>{{ $adress->email }}</td>
                                         <td>
                                             <div class="btn-group" role="group">
-                                                <button type="button" class="btn btn-sm btn-outline-primary"><i class="ti-pencil" aria-hidden="true"></i></button>
-                                                <button type="button" class="btn btn-sm btn-outline-primary"><i class="ti-close" aria-hidden="true"></i></button>
+                                                <button type="button" class="btn btn-default"><i class="tf-pencil2" aria-hidden="true"></i></button>
+                                                <button type="button" class="btn btn-default"><i class="tf-ion-close" aria-hidden="true"></i></button>
                                             </div>
                                         </td>
                                     </tr>
                                     @endforeach
-                                    <tr>
-                                        <td>Samsung</td>
-                                        <td>Adam Smith</td>
-                                        <td>9/4 C Babor Road, Mohammad Pur, Dhaka</td>
-                                        <td>Bangladesh</td>
-                                        <td>+884 5452 6452</td>
-                                        <td>
-                                            <div class="btn-group" role="group">
-                                                <button type="button" class="btn btn-sm btn-outline-primary"><i class="ti-pencil" aria-hidden="true"></i></button>
-                                                <button type="button" class="btn btn-sm btn-outline-primary"><i class="ti-close" aria-hidden="true"></i></button>
-                                            </div>
-                                        </td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -73,5 +48,4 @@
             </div>
         </div>
     </section>
-
 </x-customer-layout>

@@ -4,7 +4,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
   <div class="container">
     <div class="row">
-      <div class="col-md-6 mx-auto">
+      <div class="col-md-6 mx-auto" style="align-items: center;">
         <div class="block text-center">
           <h2 class="text-center">Edit profile</h2>
           <form class="text-left clearfix" method="post" wire:submit.prevent="update">
