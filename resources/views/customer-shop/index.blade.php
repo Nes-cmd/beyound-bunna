@@ -36,7 +36,7 @@
     <!-- /deal -->
 
     <!-- instagram -->
-    <section class="section instagram-feed fade-in">
+    <section class="section instagram-feed reveal fade-bottom">
       <div class="container">
         <div class="row">
           <div class="title">

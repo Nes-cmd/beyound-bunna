@@ -1,4 +1,4 @@
-<footer class="footer section text-center">
+<footer class="footer section text-center reveal">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">

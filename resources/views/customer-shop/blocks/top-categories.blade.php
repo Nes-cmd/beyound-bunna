@@ -1,4 +1,4 @@
-<section class="product-category sectionzzz">
+<section class="product-category section reveal fade-bottom">
   <div class="container">
     <div class="row">
       <div class="col-md-12">

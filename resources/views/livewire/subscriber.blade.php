@@ -1,4 +1,4 @@
-<section class="call-to-action bg-gray section">
+<section class="call-to-action bg-gray section reveal fade-right">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">

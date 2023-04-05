@@ -1,4 +1,4 @@
-<section class="products section bg-gray">
+<section class="products section bg-gray reveal fade-bottom">
 		<div class="container">
 			<div class="row">
 				<div class="title text-center">

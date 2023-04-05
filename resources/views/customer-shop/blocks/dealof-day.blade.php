@@ -1,4 +1,4 @@
-<section class="section bg-cover" data-background="customer/images/backgrounds/deal.jpg">
+<section class="section bg-cover reveal fade-bottom" data-background="customer/images/backgrounds/deal.jpg">
   <div class="container">
     <div class="row">
       <div class="col-md-6 text-center text-md-left mb-4 mb-md-0">

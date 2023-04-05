@@ -16,7 +16,7 @@
                             </select>
                         </form>
                     </div>
-                    <div class="widget product-category">
+                    <div class="widget product-category reveal">
                         <h4 class="widget-title">Categories</h4>
                         <div class="panel-group commonAccordion" id="accordion" role="tablist" aria-multiselectable="true">
                             @foreach ($menus as $menu)
@@ -41,7 +41,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 reveal fade-right">
                     <div class="row">
                         @foreach($products as $product)
                         <div class="col-md-4">

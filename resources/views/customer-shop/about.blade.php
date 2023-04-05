@@ -4,7 +4,7 @@
 	@include('customer-shop.blocks.breadcrumb', ['page' => 'About'])
     <section class="about section">
 		<div class="container">
-			<div class="row">
+			<div class="row reveal fade-right">
 				<div class="col-md-6">
 					<img class="img-responsive" src="{{ asset('aida/images/about/aboutAida.jpg')}}">
 				</div>

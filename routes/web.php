@@ -44,3 +44,5 @@ Route::get('customer/dashboard/edit-profile',EditProfile::class)->name('customer
 Route::get('test-sdk', function(){
     return view('test-sdk');
 });
+
+Route::view('test-fade', 'test-fade');
