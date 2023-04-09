@@ -1,29 +1,128 @@
 <x-customer-layout>
-    @section('title') - About Us  @endsection
-	@include('customer-shop.blocks.breadcrumb', ['page' => 'Travel'])
+    @section('title') - About Us @endsection
+    @include('customer-shop.blocks.breadcrumb', ['page' => 'Travel'])
 
     <div class="page-wrapper">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-4">
+                    <aside class="sidebar">
+                        <div class="widget widget-subscription">
+                            <h4 class="widget-title">Get notified updates</h4>
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email Address">
+                                </div>
+                                <button type="submit" class="btn btn-main">I am in</button>
+                            </form>
+                        </div>
+
+                        <!-- Widget Latest Posts -->
+                        <div class="widget widget-latest-post">
+                            <h4 class="widget-title">Latest Travels</h4>
+                            <div class="media">
+                                <a class="pull-left" href="#!">
+                                    <img class="media-object" src="aida/images/blog/post-thumb.jpg" alt="Image">
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#!">Introducing Swift for Mac</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officia.</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#!">
+                                    <img class="media-object" src="aida/images/blog/post-thumb-2.jpg" alt="Image">
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#!">Welcome to Themefisher Family</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officia.</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#!">
+                                    <img class="media-object" src="aida/images/blog/post-thumb-3.jpg" alt="Image">
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#!">Warm welcome from swift</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officia.</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#!">
+                                    <img class="media-object" src="aida/images/blog/post-thumb.jpg" alt="Image">
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#!">Introducing Swift for Mac</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officia.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Latest Posts -->
+
+                        <!-- Widget Category -->
+                        <div class="widget widget-category">
+                            <h4 class="widget-title">Categories</h4>
+                            <ul class="widget-category-list">
+                                <li><a href="#!">Animals</a>
+                                </li>
+                                <li><a href="#!">Landscape</a>
+                                </li>
+                                <li><a href="#!">Portrait</a>
+                                </li>
+                                <li><a href="#!">Wild Life</a>
+                                </li>
+                                <li><a href="#!">Video</a>
+                                </li>
+                            </ul>
+                        </div> <!-- End category  -->
+
+                        <!-- Widget tag -->
+                        <div class="widget widget-tag">
+                            <h4 class="widget-title">Tag Cloud</h4>
+                            <ul class="widget-tag-list">
+                                <li><a href="#!">Animals</a>
+                                </li>
+                                <li><a href="#!">Landscape</a>
+                                </li>
+                                <li><a href="#!">Portrait</a>
+                                </li>
+                                <li><a href="#!">Wild Life</a>
+                                </li>
+                                <li><a href="#!">Video</a>
+                                </li>
+                            </ul>
+                        </div> <!-- End tag  -->
+
+
+
+
+
+
+
+                    </aside>
+                </div>
+                <div class="col-md-8">
                     <div class="post">
                         <div class="post-media post-thumb">
                             <a href="blog-single.html">
-                                <img src="aida/images/blog/blog-post-a.jpg" alt="">
+                                <img src="aida/images/blog/blog-post-1.jpg" alt="">
                             </a>
                         </div>
-                        <h2 class="post-title"><a href="blog-single.html">Title About This Origin</a></h2>
+                        <h2 class="post-title"><a href="blog-single.html">How To Wear Bright Shoes</a></h2>
                         <div class="post-meta">
                             <ul>
                                 <li>
-                                    <i class="tf-ion-ios-calendar"></i> 20, MAR 2023
+                                    <i class="tf-ion-ios-calendar"></i> 20, MAR 2017
                                 </li>
                                 <li>
-                                    <i class="tf-ion-android-person"></i> POSTED BY Aida
+                                    <i class="tf-ion-android-person"></i> POSTED BY ADMIN
                                 </li>
                                 <li>
-                                    <a href="#!"><i class="tf-ion-ios-pricetags"></i> Coffee Origin</a>,<a href="#!">
+                                    <a href="#!"><i class="tf-ion-ios-pricetags"></i> LIFESTYLE</a>,<a href="#!">
                                         TRAVEL</a>, <a href="#!">FASHION</a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="tf-ion-chatbubbles"></i> 4 COMMENTS</a>
                                 </li>
                             </ul>
                         </div>
@@ -41,21 +140,24 @@
                     <div class="post">
                         <div class="post-media post-thumb">
                             <a href="blog-single.html">
-                                <img src="aida/images/blog/blog-post-b.jpg" alt="">
+                                <img src="aida/images/blog/blog-post-2.jpg" alt="">
                             </a>
                         </div>
-                        <h2 class="post-title"><a href="blog-single.html">Title About This Origin</a></h2>
+                        <h2 class="post-title"><a href="blog-single.html">Two Ways To Wear Straight Shoes</a></h2>
                         <div class="post-meta">
                             <ul>
                                 <li>
-                                    <i class="tf-ion-ios-calendar"></i> 20, MAR 2023
+                                    <i class="tf-ion-ios-calendar"></i> 20, MAR 2017
                                 </li>
                                 <li>
-                                    <i class="tf-ion-android-person"></i> POSTED BY Aida
+                                    <i class="tf-ion-android-person"></i> POSTED BY ADMIN
                                 </li>
                                 <li>
-                                    <a href="#!"><i class="tf-ion-ios-pricetags"></i> Coffee Origin</a>,<a href="#!">
+                                    <a href="#!"><i class="tf-ion-ios-pricetags"></i> LIFESTYLE</a>,<a href="#!">
                                         TRAVEL</a>, <a href="#!">FASHION</a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="tf-ion-chatbubbles"></i> 4 COMMENTS</a>
                                 </li>
                             </ul>
                         </div>
@@ -72,81 +174,148 @@
                     <div class="post">
                         <div class="post-media post-thumb">
                             <a href="blog-single.html">
-                                <img src="aida/images/blog/blog-post-c.jpg" alt="">
+                                <img src="aida/images/blog/blog-post-3.jpg" alt="">
                             </a>
-                            <h2 class="post-title"><a href="blog-single.html">Title About This Origin</a></h2>
-                            <div class="post-meta">
-                                <ul>
-                                    <li>
-                                        <i class="tf-ion-ios-calendar"></i> 20, MAR 2023
-                                    </li>
-                                    <li>
-                                        <i class="tf-ion-android-person"></i> POSTED BY Aida
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-ios-pricetags"></i> Coffee Origin</a>,<a href="#!"> TRAVEL</a>, <a href="#!">FASHION</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="post-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad
-                                    architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam,
-                                    adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet,
-                                    consectetur adipisicing elit. Odio vitae ab doloremque accusamus sit, eos dolorum
-                                    officiis a perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. Quod, facere</p>
-                                <a href="blog-single.html" class="btn btn-main">Continue Reading</a>
-                            </div>
                         </div>
-
-
-
-                        <div class="post">
-                            <div class="post-media post-media-audio">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/0NGC4t4Z7xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            </div>
-                            <h2 class="post-title"><a href="blog-single.html">Title About This Origin</a></h2>
-                            <div class="post-meta">
-                                <ul>
-                                    <li>
-                                        <i class="tf-ion-ios-calendar"></i> 20, MAR 2023
-                                    </li>
-                                    <li>
-                                        <i class="tf-ion-android-person"></i> POSTED BY Aida
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-ios-pricetags"></i> Coffee Origin</a>,<a href="#!"> TRAVEL</a>, <a href="#!">FASHION</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="post-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad
-                                    architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam,
-                                    adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet,
-                                    consectetur adipisicing elit. Odio vitae ab doloremque accusamus sit, eos dolorum
-                                    officiis a perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. Quod, facere</p>
-                                <a href="blog-single.html" class="btn btn-main">Continue Reading</a>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <ul class="pagination post-pagination">
-                                <li><a href="#!">Prev</a>
+                        <h2 class="post-title"><a href="blog-single.html">Making A Denim Statement</a></h2>
+                        <div class="post-meta">
+                            <ul>
+                                <li>
+                                    <i class="tf-ion-ios-calendar"></i> 20, MAR 2017
                                 </li>
-                                <li class="active"><a href="#!">1</a>
+                                <li>
+                                    <i class="tf-ion-android-person"></i> POSTED BY ADMIN
                                 </li>
-                                <li><a href="#!">2</a>
+                                <li>
+                                    <a href="#!"><i class="tf-ion-ios-pricetags"></i> LIFESTYLE</a>,<a href="#!">
+                                        TRAVEL</a>, <a href="#!">FASHION</a>
                                 </li>
-                                <li><a href="#!">3</a>
-                                </li>
-                                <li><a href="#!">4</a>
-                                </li>
-                                <li><a href="#!">5</a>
-                                </li>
-                                <li><a href="#!">Next</a>
+                                <li>
+                                    <a href="#!"><i class="tf-ion-chatbubbles"></i> 4 COMMENTS</a>
                                 </li>
                             </ul>
                         </div>
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad
+                                architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci
+                                architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Odio vitae ab doloremque accusamus sit, eos dolorum officiis a
+                                perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+                                facere</p>
+                            <a href="blog-single.html" class="btn btn-main">Continue Reading</a>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <h2 class="post-title"><a href="blog-single.html">Standard Text Post</a></h2>
+                        <div class="post-meta">
+                            <ul>
+                                <li>
+                                    <i class="tf-ion-ios-calendar"></i> 20, MAR 2017
+                                </li>
+                                <li>
+                                    <i class="tf-ion-android-person"></i> POSTED BY ADMIN
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="tf-ion-ios-pricetags"></i> LIFESTYLE</a>,<a href="#!">
+                                        TRAVEL</a>, <a href="#!">FASHION</a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="tf-ion-chatbubbles"></i> 4 COMMENTS</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad
+                                architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci
+                                architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Odio vitae ab doloremque accusamus sit, eos dolorum officiis a
+                                perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+                                facere</p>
+                            <a href="blog-single.html" class="btn btn-main">Continue Reading</a>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-media post-media-audio">
+                            <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/115637399&amp;color=ff5500&amp;auto_play=false&amp;show_artwork=true" class="DRAGDIS_iframe"></iframe>
+                        </div>
+                        <h2 class="post-title"><a href="blog-single.html">Standard Audio Post</a></h2>
+                        <div class="post-meta">
+                            <ul>
+                                <li>
+                                    <i class="tf-ion-ios-calendar"></i> 20, MAR 2017
+                                </li>
+                                <li>
+                                    <i class="tf-ion-android-person"></i> POSTED BY ADMIN
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="tf-ion-ios-pricetags"></i> LIFESTYLE</a>,<a href="#!">
+                                        TRAVEL</a>, <a href="#!">FASHION</a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="tf-ion-chatbubbles"></i> 4 COMMENTS</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad
+                                architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci
+                                architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Odio vitae ab doloremque accusamus sit, eos dolorum officiis a
+                                perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+                                facere</p>
+                            <a href="blog-single.html" class="btn btn-main">Continue Reading</a>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-media post-media-audio">
+                            <iframe height="400" src="https://www.youtube.com/embed/Ljik3zsGNF4" allowfullscreen></iframe>
+                        </div>
+                        <h2 class="post-title"><a href="blog-single.html">Standard Video Post</a></h2>
+                        <div class="post-meta">
+                            <ul>
+                                <li>
+                                    <i class="tf-ion-ios-calendar"></i> 20, MAR 2017
+                                </li>
+                                <li>
+                                    <i class="tf-ion-android-person"></i> POSTED BY ADMIN
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="tf-ion-ios-pricetags"></i> LIFESTYLE</a>,<a href="#!">
+                                        TRAVEL</a>, <a href="#!">FASHION</a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="tf-ion-chatbubbles"></i> 4 COMMENTS</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad
+                                architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci
+                                architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Odio vitae ab doloremque accusamus sit, eos dolorum officiis a
+                                perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+                                facere</p>
+                            <a href="blog-single.html" class="btn btn-main">Continue Reading</a>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <ul class="pagination post-pagination">
+                            <li><a href="#!">Prev</a>
+                            </li>
+                            <li class="active"><a href="#!">1</a>
+                            </li>
+                            <li><a href="#!">2</a>
+                            </li>
+                            <li><a href="#!">3</a>
+                            </li>
+                            <li><a href="#!">4</a>
+                            </li>
+                            <li><a href="#!">5</a>
+                            </li>
+                            <li><a href="#!">Next</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
