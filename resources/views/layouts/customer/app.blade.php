@@ -42,64 +42,6 @@
   </title>
   @livewireStyles
 
-  <style>
-    .reveal {
-      position: relative;
-      opacity: 0;
-    }
-
-    .reveal.active {
-      opacity: 1;
-    }
-
-    .active.fade-bottom {
-      animation: fade-bottom 1s ease-in;
-    }
-
-    .active.fade-left {
-      animation: fade-left 1s ease-in;
-    }
-
-    .active.fade-right {
-      animation: fade-right 1s ease-in;
-    }
-
-    @keyframes fade-bottom {
-      0% {
-        transform: translateY(200px);
-        opacity: 0;
-      }
-
-      100% {
-        transform: translateY(0);
-        opacity: 1;
-      }
-    }
-
-    @keyframes fade-left {
-      0% {
-        transform: translateX(-200px);
-        opacity: 0;
-      }
-
-      100% {
-        transform: translateX(0);
-        opacity: 1;
-      }
-    }
-
-    @keyframes fade-right {
-      0% {
-        transform: translateX(200px);
-        opacity: 0;
-      }
-
-      100% {
-        transform: translateX(0);
-        opacity: 1;
-      }
-    }
-  </style>
   <script>
     function reveal() {
       var reveals = document.querySelectorAll(".reveal");

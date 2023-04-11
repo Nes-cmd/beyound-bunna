@@ -11,8 +11,11 @@ use App\Http\Livewire\CheckoutComponent;
 use App\Http\Livewire\WishlistConponent;
 use App\Http\Controllers\CustomerDashboardController;
 use App\Http\Livewire\EditProfile;
+use App\Http\Livewire\TravelComponent;
+use App\Http\Livewire\TravelDetail;
 
-Route::view('travel', 'customer-shop.travel')->name('travel');
+Route::get('travel', TravelComponent::class)->name('travel');
+Route::get('travel-detail/{id}', TravelDetail::class)->name('travel-detail');
 
 Route::get('paypal-success', [OrderController::class,'receivePaymens'])->middleware('auth')->name('paypal.success');
 Route::get('card-success',  [OrderController::class,'receiveCardPayments'])->middleware('auth')->name('card.success');

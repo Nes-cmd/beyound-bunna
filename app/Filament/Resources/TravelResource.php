@@ -31,7 +31,7 @@ class TravelResource extends Resource
                         Forms\Components\DatePicker::make('closing_date')->required()->minDate(now()),
                         Forms\Components\TagsInput::make('tags'),
                     ]),
-                    Forms\Components\FileUpload::make('images')->image()->multiple()->minFiles(1)->maxFiles(6),
+                    Forms\Components\FileUpload::make('images')->image()->multiple()->minFiles(1)->enableReordering(),
                     Forms\Components\FileUpload::make('video')->label('Video promo(Optional)'),
                 ])
             ]);
