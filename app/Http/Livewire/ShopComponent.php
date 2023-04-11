@@ -60,6 +60,7 @@ class ShopComponent extends Component
     {
         $filtersClass->userInputs = $this->filters;
         $products = Product::filter($filtersClass)->paginate(12);
+        // dd($products);
         $subCategorys = $this->subCategorys;
         $this->products = $products;
         return view('livewire.shop-component', compact(['products', 'subCategorys']))

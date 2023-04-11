@@ -1,95 +1,101 @@
 <!DOCTYPE html>
-<html lang="zxx">
 
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
 
-<!-- Mirrored from demo.themefisher.com/elite-shop/coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Jun 2022 06:53:22 GMT -->
+<html lang="en">
+
 <head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
   <meta charset="utf-8">
-  <title>Shop Kager</title>
+  <title>Beyond Bunna</title>
 
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Construction Html5 Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Constra HTML Template v1.0">
 
-  <!-- ** Plugins Needed for the Project ** -->
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="customer/plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="customer/plugins/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="customer/plugins/slick/slick.css">
-  <link rel="stylesheet" href="customer/plugins/venobox/venobox.css">
-  <link rel="stylesheet" href="customer/plugins/animate/animate.css">
-  <link rel="stylesheet" href="customer/plugins/aos/aos.css">
-  <link rel="stylesheet" href="customer/plugins/bootstrap-touchspin-master/jquery.bootstrap-touchspin.min.css">
-  <link rel="stylesheet" href="customer/plugins/nice-select/nice-select.css">
-  <link rel="stylesheet" href="customer/plugins/bootstrap-slider/bootstrap-slider.min.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+  <!-- Themefisher Icon font -->
+  <link rel="stylesheet" href="aida/plugins/themefisher-font/style.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="aida/plugins/bootstrap/css/bootstrap.min.css">
+
+  <!-- Animate css -->
+  <link rel="stylesheet" href="aida/plugins/animate/animate.css">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="aida/plugins/slick/slick.css">
+  <link rel="stylesheet" href="aida/plugins/slick/slick-theme.css">
 
   <!-- Main Stylesheet -->
-  <link href="customer/css/style.css" rel="stylesheet">
-
-  <!--Favicon-->
-  <link rel="shortcut icon" href="customer/images/favicon.png" type="image/x-icon">
-  <link rel="icon" href="customer/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="aida/css/style.css">
 
 </head>
 
-<body>
+<body id="body">
 
-  <!-- preloader start -->
-  <div class="preloader">
-    <img src="customer/images/preloader.gif" alt="preloader">
-  </div>
-  <!-- preloader end -->
+  <section class="coming-soon bg-coming-soon text-center overly" style="background-image: url(aida/images/coming-soon-bgC.jpg)">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+            <div class="count-down">
+              <div class="syotimer">
+                <div class="your_selector_to_countdown" id="simple-timer"></div>
+              </div>
+            </div>
+            <h1>Hello, Welcome to Beyond Buna and We're almost ready for launch</h1>
 
-<section class="coming-soon text-center overlay" data-background="customer/images/backgrounds/coming-soon.jpg">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 mx-auto">
-				<div class="block">
-					<div class="count-down">
-						<div class="syotimer">
-							<div id="comingSoon"></div>
-						</div>
-					</div>
-					<h1 class="mb-5 text-white">Hello, we're Shop Kager's and we are almost ready for launch</h1>
-					<div class="social-media-icons">
-						<ul class="list-inline social-icons">
-							<li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="ti-google"></i></a></li>
-							<li class="list-inline-customer/item"><a href="#"><i class="ti-pinterest"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="ti-instagram"></i></a></li>
-						</ul>
-					</div>
-					<p class="copyright-text text-white mt-3">© 2018 Themefisher All Rights Reserved</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
-</div>
-<!-- /main wrapper -->
+            <p class="copyright-text">Copyright &copy; 2023. Designed &amp; Developed by Beyond Creative.</p>
 
-<!-- jQuery -->
-<script src="customer/plugins/jQuery/jquery.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="customer/plugins/bootstrap/bootstrap.min.js"></script>
-<script src="customer/plugins/slick/slick.min.js"></script>
-<script src="customer/plugins/venobox/venobox.min.js"></script>
-<script src="customer/plugins/aos/aos.js"></script>
-<script src="customer/plugins/syotimer/jquery.syotimer.js"></script>
-<script src="customer/plugins/instafeed/instafeed.min.js"></script>
-<script src="customer/plugins/zoom-master/jquery.zoom.min.js"></script>
-<script src="customer/plugins/bootstrap-touchspin-master/jquery.bootstrap-touchspin.min.js"></script>
-<script src="customer/plugins/nice-select/jquery.nice-select.min.js"></script>
-<script src="customer/plugins/bootstrap-slider/bootstrap-slider.min.js"></script>
-<!-- google map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
-<script src="customer/plugins/google-map/gmap.js"></script>
-<!-- Main Script -->
-<script src="customer/js/script.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+    Essential Scripts
+    =====================================-->
+
+  <!-- Main jQuery -->
+  <script src="aida/plugins/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap 3.1 -->
+  <script src="aida/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Bootstrap Touchpin -->
+  <script src="aida/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+  <!-- Instagram Feed Js -->
+  <script src="aida/plugins/instafeed/instafeed.min.js"></script>
+  <!-- Video Lightbox Plugin -->
+  <script src="plugins/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+  <!-- Count Down Js -->
+  <script src="aida/plugins/syo-timer/build/jquery.syotimer.min.js"></script>
+
+  <!-- slick Carousel -->
+  <script src="aida/plugins/slick/slick.min.js"></script>
+  <script src="aida/plugins/slick/slick-animation.min.js"></script>
+
+  <!-- Google Mapl -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+  <script type="text/javascript" src="plugins/google-map/gmap.js"></script>
+
+  <!-- Main Js File -->
+  <script src="aida/js/script.js"></script>
+
+
+
 </body>
 
-<!-- Mirrored from demo.themefisher.com/elite-shop/coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Jun 2022 06:53:23 GMT -->
 </html>

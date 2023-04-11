@@ -4,7 +4,7 @@
     <section class="products section">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 reveal fade-bottom active">
                     <div class="widget">
                         <h4 class="widget-title">Short By</h4>
                         <form method="post" action="#">
@@ -16,7 +16,7 @@
                             </select>
                         </form>
                     </div>
-                    <div class="widget product-category reveal">
+                    <div class="widget product-category">
                         <h4 class="widget-title">Categories</h4>
                         <div class="panel-group commonAccordion" id="accordion" role="tablist" aria-multiselectable="true">
                             @foreach ($menus as $menu)
@@ -26,7 +26,7 @@
                                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#{{'collapse'.$menu->id }}" aria-expanded="true" aria-controls="collapseOne">{{ $menu->name }}</a>
                                     </h4>
                                 </div>
-                                <div id="{{'collapse'.$menu->id }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{'heading'.$menu->id }}">
+                                <div id="{{'collapse'.$menu->id }}" class="panel-collapse collapse reveal" role="tabpanel" aria-labelledby="{{'heading'.$menu->id }}">
                                     <div class="panel-body">
                                         <ul>
                                             @foreach($menu->subCategory as $sub)
@@ -41,7 +41,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-9 reveal fade-right">
+                <div class="col-md-9 reveal fade-right active">
                     <div class="row">
                         @foreach($products as $product)
                         <div class="col-md-4">
