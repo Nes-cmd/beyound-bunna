@@ -20,6 +20,7 @@ return new class extends Migration
             $table->text('content');
             $table->text('images')->nullable();
             $table->string('tags', 512)->nullable();
+            $table->string('location')->nullable();
             $table->string('video')->nullable();
             $table->timestamp('closing_date')->nullable();
             $table->timestamps();

@@ -18,6 +18,7 @@ class TravelDetail extends Component
     public function mount($id)
     {
         $this->travel = Travel::find($id);
+
         if(auth()->check()){
             $this->name = auth()->user()->first_name .' '. auth()->user()->last_name;
             $this->phone = auth()->user()->phone;

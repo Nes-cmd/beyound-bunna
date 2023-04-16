@@ -12,6 +12,7 @@ use Filament\Resources\Table;
 use Filament\Tables;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Yemenpoint\FilamentGoogleMapLocationPicker\Forms\Components\LocationPicker;
 
 class TravelResource extends Resource
 {
@@ -31,6 +32,15 @@ class TravelResource extends Resource
                         Forms\Components\DatePicker::make('closing_date')->required()->minDate(now()),
                         Forms\Components\TagsInput::make('tags'),
                     ]),
+                    LocationPicker::make('location')
+                        ->default(json_encode(["lat" => 15.356893920277, "lng" => 44.173358011179])) //set default location
+                        ->defaultZoom(12) // set zoom 
+                        ->setLocationCenter([
+                            'lat' => 15.356893920277,
+                            'lng' => 44.173358011179,
+                        ]), //set location center 
+                    
+
                     Forms\Components\FileUpload::make('images')->image()->multiple()->minFiles(1)->enableReordering(),
                     Forms\Components\FileUpload::make('video')->label('Video promo(Optional)'),
                 ])

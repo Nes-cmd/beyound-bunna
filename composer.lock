@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15572e3b6f864cdaabfa2fd0c41b34b9",
+    "content-hash": "0c49d41ccbdf53a2dec1e89f51c40f37",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -7455,6 +7455,50 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "yemenpoint/filament-google-map-location-picker",
+            "version": "v2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yemenpoint/filament-google-map-location-picker.git",
+                "reference": "de277bb2dce4205d43c77245cfabb8e7a14c3633"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yemenpoint/filament-google-map-location-picker/zipball/de277bb2dce4205d43c77245cfabb8e7a14c3633",
+                "reference": "de277bb2dce4205d43c77245cfabb8e7a14c3633",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "2.*"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Yemenpoint\\FilamentGoogleMapLocationPicker\\FilamentLocationPickerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yemenpoint\\FilamentGoogleMapLocationPicker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "yemenpoint",
+                    "email": "ebrahim29001@gmail.com"
+                }
+            ],
+            "description": "Google map location picker for filament",
+            "support": {
+                "issues": "https://github.com/yemenpoint/filament-google-map-location-picker/issues",
+                "source": "https://github.com/yemenpoint/filament-google-map-location-picker/tree/v2.2"
+            },
+            "time": "2022-11-05T18:49:02+00:00"
         }
     ],
     "packages-dev": [
