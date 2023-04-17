@@ -1,6 +1,5 @@
 <?php
 
 return [
-    'google_map_key' => "",
-    // AIzaSyAsRpoTkMLyfxVxZmxEOHmzu7e1NGRH7cY
+    'google_map_key' => env("GOOGLE_MAP_KEY",""),
 ];
