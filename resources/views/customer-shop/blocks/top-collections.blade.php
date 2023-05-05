@@ -9,9 +9,12 @@
         		@foreach ($collections as $product)
 				<div class="col-md-4">
 					<div class="product-item">
+						
 						<div class="product-thumb">
 							<span class="bage">Sale</span>
-							<img class="img-responsive" src="{{ asset('storage/'.$product->photos[0])}}" alt="product-img" />
+							<a  href="{{ route('shop.product-single', $product->id) }}">
+								<img class="img-responsive" src="{{ asset('storage/'.$product->photos[0])}}" alt="product-img" />
+							</a>
 							<div class="preview-meta">
 								<ul>
 									<li>
@@ -28,6 +31,7 @@
 								</ul>
 							</div>
 						</div>
+						
 						<div class="product-content">
 							<h4><a href="{{ route('shop.product-single', $product->id) }}">{{ $product->name }}</a></h4>
 							<p class="price">${{ $product->price }}</p>

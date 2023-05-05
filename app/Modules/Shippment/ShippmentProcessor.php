@@ -6,9 +6,9 @@ class ShippmentProcessor{
     public function getAvailableShippmentMethods()
     {
         return [
-            'dhl-express' => true,
-            'ups' => true,
-            'warka' => false,
+            'dhl-express' => false,
+            'ups' => false,
+            'warka' => true,
         ];
     }
 
@@ -27,7 +27,7 @@ class ShippmentProcessor{
             if($rate['available']) array_push($rates, $rate);
         }
         if($methods['warka']){
-            array_push($rates, ['shippmentName' => 'Warka delivery', 'price' => 99, 'currency' => 'USD', 'estimatedTime' => 'today']);
+            array_push($rates, ['shippmentName' => 'Manual delivery system', 'price' => '0', 'currency' => 'USD', 'estimatedTime' => 'unknown']);
         }
         return $rates;
     }
