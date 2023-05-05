@@ -83,19 +83,19 @@ iframe {
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 blockquote {
   font-size: 18px;
-  border-color: #000;
+  border-color: rgb(137, 21, 23);
   padding: 20px 40px;
   text-align: left;
   color: #777;
 }
 
 .navbar-toggle .icon-bar {
-  background: #000;
+  background: rgb(137, 21, 23);
 }
 
 input[type=email], input[type=password], input[type=text], input[type=tel] {
@@ -108,7 +108,7 @@ input[type=email], input[type=password], input[type=text], input[type=tel] {
 }
 input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, input[type=tel]:focus {
   box-shadow: none;
-  border: 1px solid #000;
+  border: 1px solid rgb(137, 21, 23);
 }
 
 .form-control {
@@ -117,11 +117,11 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid #000;
+  border: 1px solid rgb(137, 21, 23);
 }
 
 .btn-main, .btn-small, .btn-transparent, .btn-solid-border {
-  background: #000;
+  background: rgb(137, 21, 23);
   color: #fff;
   display: inline-block;
   font-size: 11px;
@@ -142,19 +142,19 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .btn-solid-border {
-  border: 1px solid #000;
+  border: 1px solid rgb(137, 21, 23);
   background: #fff;
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 .btn-transparent {
   background: transparent;
   padding: 0;
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .btn-transparent:hover {
   background: transparent;
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 .btn-large {
@@ -345,7 +345,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   font-size: 12px;
 }
 .page-header .breadcrumb li a {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 .overly {
@@ -504,8 +504,8 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   margin-right: 5px;
 }
 .tabCommon .nav-tabs li.active a {
-  background-color: #000;
-  border: 1px solid #000;
+  background-color: rgb(137, 21, 23);
+  border: 1px solid rgb(137, 21, 23);
   color: #ffffff;
 }
 .tabCommon .nav-tabs a {
@@ -514,7 +514,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .tabCommon .nav-tabs a:hover {
   border: 1px solid transparent;
-  background: #000;
+  background: rgb(137, 21, 23);
   color: #fff;
 }
 .tabCommon .tab-content {
@@ -580,7 +580,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 
 .alert-solid {
   background: transparent;
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 @media (max-width: 480px) {
@@ -683,7 +683,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   width: 60px;
 }
 .cart-dropdown h4 {
-  color: #000;
+  color: rgb(137, 21, 23);
   font-weight: 300;
   font-size: 14px;
 }
@@ -716,7 +716,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .cart-summary {
   margin-top: 10px;
   font-weight: 500;
-  color: #000;
+  color: rgb(137, 21, 23);
   font-size: 14px;
 }
 .cart-summary .total-price {
@@ -747,7 +747,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   position: static;
 }
 .navigation .navbar-nav > li.active a {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .navigation .navbar-nav > li > a {
   color: #333;
@@ -759,7 +759,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
   background: none;
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .navigation .container {
   position: relative;
@@ -788,7 +788,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   transition: 0.3s all;
 }
 .navigation .dropdown-slide .dropdown-menu li a:hover {
-  background-color: #000;
+  background-color: rgb(137, 21, 23);
   color: #fff;
 }
 
@@ -803,7 +803,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   content: "";
   height: 100%;
   width: 100%;
-  background-color: #000;
+  background-color: rgb(137, 21, 23);
   opacity: 0.5;
   z-index: -1;
   top: 0;
@@ -834,10 +834,10 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   margin-top: 25px;
 }
 .slider-item.white-bg .slide-inner h1 {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .slider-item.white-bg .slide-inner p {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 .home-slider:hover .owl-nav {
@@ -929,7 +929,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   z-index: 999;
 }
 .heroSliderArrow:focus, .heroSliderArrow:hover {
-  background-color: #000;
+  background-color: rgb(137, 21, 23);
   color: #fff;
   outline: 0;
 }
@@ -959,7 +959,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   position: absolute;
   top: 12px;
   right: 12px;
-  background: #000;
+  background: rgb(137, 21, 23);
   color: #fff;
   font-size: 12px;
   padding: 4px 12px;
@@ -1001,7 +1001,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   width: 50px;
 }
 .product-item .product-thumb .preview-meta li a:hover, .product-item .product-thumb .preview-meta li span:hover {
-  background: #000;
+  background: rgb(137, 21, 23);
   color: #fff;
 }
 .product-item:hover .product-thumb:before {
@@ -1021,7 +1021,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   margin-bottom: 6px;
 }
 .product-item .product-content h4 a {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 .product-modal {
@@ -1083,7 +1083,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   font-weight: 400;
 }
 .product-modal .modal-content .modal-body .product-short-details h2 a {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 @media (max-width: 480px) {
   .product-modal .modal-content .modal-body .product-short-details h2 {
@@ -1129,7 +1129,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   color: #666;
 }
 .product-category ul li a:hover {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 .single-product {
@@ -1139,11 +1139,11 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   background: transparent;
 }
 .single-product .breadcrumb li {
-  color: #000;
+  color: rgb(137, 21, 23);
   font-weight: 200;
 }
 .single-product .breadcrumb li a {
-  color: #000;
+  color: rgb(137, 21, 23);
   font-weight: 200;
 }
 .single-product .product-pagination li {
@@ -1156,7 +1156,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   content: "/ ";
 }
 .single-product .product-pagination li a {
-  color: #000;
+  color: rgb(137, 21, 23);
   font-weight: 200;
 }
 .single-product .product-pagination li a i {
@@ -1172,7 +1172,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .single-product-slider .carousel .carousel-inner .carousel-caption h1 {
   font-size: 50px;
   font-weight: 100;
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .single-product-slider .carousel .carousel-inner .carousel-caption p {
   width: 50%;
@@ -1235,7 +1235,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .single-product-details .color-swatches span {
   width: 100px;
-  color: #000;
+  color: rgb(137, 21, 23);
   font-size: 13px;
   font-weight: 600;
 }
@@ -1252,7 +1252,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   background-color: #8da1cd;
 }
 .single-product-details .color-swatches .swatch-black {
-  background-color: #000;
+  background-color: rgb(137, 21, 23);
 }
 .single-product-details .color-swatches .swatch-cream {
   background-color: #e6e2d6;
@@ -1264,7 +1264,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .single-product-details .product-size span {
   width: 100px;
-  color: #000;
+  color: rgb(137, 21, 23);
   font-size: 13px;
   font-weight: 600;
   display: inline-block;
@@ -1274,7 +1274,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   width: 130px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #000;
+  color: rgb(137, 21, 23);
   font-size: 12px;
   border: 1px solid #e5e5e5;
   border-radius: 0px;
@@ -1285,7 +1285,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .single-product-details .product-category > span {
   width: 100px;
-  color: #000;
+  color: rgb(137, 21, 23);
   font-size: 13px;
   font-weight: 600;
   display: inline-block;
@@ -1305,7 +1305,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .single-product-details .product-quantity > span {
   width: 100px;
-  color: #000;
+  color: rgb(137, 21, 23);
   font-size: 13px;
   font-weight: 600;
   display: inline-block;
@@ -1397,7 +1397,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   margin-top: 5px;
 }
 .pricing-table .price-title .value {
-  color: #000;
+  color: rgb(137, 21, 23);
   font-size: 50px;
   padding: 10px 0;
 }
@@ -1423,9 +1423,9 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .dashboard-menu .active {
-  background: #000;
+  background: rgb(137, 21, 23);
   color: #fff;
-  border: 1px solid #000;
+  border: 1px solid rgb(137, 21, 23);
 }
 .dashboard-menu li {
   padding: 0;
@@ -1515,10 +1515,10 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   font-weight: 300;
 }
 .post .post-title a {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .post .post-title a:hover {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .post .post-meta {
   font-size: 13px;
@@ -1537,10 +1537,10 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   color: #5f5b5b;
 }
 .post .post-meta ul li a:hover {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .post .post-meta .post-author {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .post .post-content {
   padding: 5px 20px;
@@ -1565,16 +1565,16 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   font-size: 12px;
 }
 .post-pagination > li > a {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .post-pagination > li > a:hover {
   color: #fff;
-  background: #000;
-  border: 1px solid #000;
+  background: rgb(137, 21, 23);
+  border: 1px solid rgb(137, 21, 23);
 }
 .post-pagination > li.active > a {
-  background: #000;
-  border: 1px solid #000;
+  background: rgb(137, 21, 23);
+  border: 1px solid rgb(137, 21, 23);
 }
 .post-pagination > li:first-child > a, .post-pagination > li:last-child > a {
   border-radius: 0;
@@ -1615,7 +1615,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   margin-bottom: 3px;
 }
 .post-comments .comment-author a {
-  color: #000;
+  color: rgb(137, 21, 23);
   font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
@@ -1642,7 +1642,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   display: inline-block;
 }
 .post-comments .comment-button:hover {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 .post-excerpt {
@@ -1650,7 +1650,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   margin-bottom: 60px;
 }
 .post-excerpt h3 a {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .post-excerpt blockquote {
   line-height: 22px;
@@ -1685,10 +1685,10 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   padding: 25px 0;
 }
 .next-prev a {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .next-prev a:hover {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .next-prev .prev-post i {
   margin-right: 10px;
@@ -1707,7 +1707,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   font-size: 16px;
 }
 .social-profile ul li a i:hover {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 .comments-section {
@@ -1751,7 +1751,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   margin-bottom: 8px;
 }
 .comment-wrap .media .media-heading a {
-  color: #000;
+  color: rgb(137, 21, 23);
   font-size: 13px;
 }
 .comment-wrap .media .comment-meta {
@@ -1772,7 +1772,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #000;
+  border: 1px solid rgb(137, 21, 23);
 }
 .comment-reply-form textarea, .comment-reply-form .btn-main, .comment-reply-form .btn-solid-border, .comment-reply-form .btn-transparent, .comment-reply-form .btn-small {
   height: auto;
@@ -1806,7 +1806,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   height: auto;
 }
 .widget.widget-latest-post .media .media-heading a {
-  color: #000;
+  color: rgb(137, 21, 23);
   font-size: 14px;
   font-weight: 300;
 }
@@ -1826,7 +1826,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   font-family: "themefisher-font";
 }
 .widget.widget-category ul li a:hover {
-  color: #000;
+  color: rgb(137, 21, 23);
   padding-left: 5px;
 }
 .widget.widget-tag ul li {
@@ -1844,8 +1844,8 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .widget.widget-tag ul li a:hover {
   color: #fff;
-  background: #000;
-  border: 1px solid #000;
+  background: rgb(137, 21, 23);
+  border: 1px solid rgb(137, 21, 23);
 }
 
 .background {
@@ -1958,7 +1958,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   display: inline-block;
 }
 .account .block a {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 .account .block h2 {
   font-weight: 400;
@@ -2043,7 +2043,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .shopping.cart .product-list .product-info a {
   margin-left: 10px;
-  color: #000;
+  color: rgb(137, 21, 23);
   font-weight: 600;
 }
 .shopping.cart .product-list .product-remove {
@@ -2215,14 +2215,14 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .contact-form input:hover,
 .contact-form textarea:hover,
 .contact-form #contact-submit:hover {
-  border-color: #000;
+  border-color: rgb(137, 21, 23);
 }
 .contact-form #contact-submit {
   border: none;
   padding: 15px 0;
   width: 100%;
   margin: 0;
-  background: #000;
+  background: rgb(137, 21, 23);
   color: #fff;
   border-radius: 0;
 }
@@ -2266,19 +2266,19 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 1px solid rgb(137, 21, 23);
   text-align: center;
 }
 .social-icon ul li a:hover {
-  background: #000;
+  background: rgb(137, 21, 23);
   color: #fff;
-  border: 1px solid #000;
+  border: 1px solid rgb(137, 21, 23);
 }
 .social-icon ul li a:hover i {
   color: #fff;
 }
 .social-icon ul li a i {
-  color: #000;
+  color: rgb(137, 21, 23);
   display: inline-block;
   font-size: 20px;
   line-height: 50px;
@@ -2323,7 +2323,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .copyright-text a {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 .social-media li {

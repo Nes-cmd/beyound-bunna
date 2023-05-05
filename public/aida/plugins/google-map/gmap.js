@@ -80,7 +80,7 @@ function initialize() {
         zoom:9,
 
         // SET THE BACKGROUND COLOUR
-        backgroundColor:"#000",
+        backgroundColor:"rgb(137, 21, 23)",
 
         // REMOVE ALL THE CONTROLS EXCEPT ZOOM
         zoom:17,

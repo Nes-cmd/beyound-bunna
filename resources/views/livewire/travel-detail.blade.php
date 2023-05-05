@@ -18,7 +18,7 @@
 							</iframe>
 							<br />
 							<small>
-								<a href="https://maps.google.com/maps?q={{ $travel->location->lat }},{{ $travel->location->lng }}&hl=es;z=14&amp;output=embed" style="color:#0000FF;text-align:left" target="_blank">
+								<a href="https://maps.google.com/maps?q={{ $travel->location->lat }},{{ $travel->location->lng }}&hl=es;z=14&amp;output=embed" style="color:rgb(137, 21, 23)0FF;text-align:left" target="_blank">
 									See map bigger
 								</a>
 							</small>

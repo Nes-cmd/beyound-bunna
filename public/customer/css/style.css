@@ -255,7 +255,7 @@ a:hover {
   width: 100%;
   top: 0;
   left: 0;
-  background: #000;
+  background: rgb(137, 21, 23);
   opacity: .5;
 }
 
@@ -496,7 +496,7 @@ a:hover {
 
 .country ul li:hover, .country ul li.selected {
   color: #fff;
-  background: #000 !important;
+  background: rgb(137, 21, 23) !important;
 }
 
 .sticky {
@@ -505,7 +505,7 @@ a:hover {
   width: 100%;
   z-index: 10;
   background: #fff;
-  box-shadow: 0 2px 5px #0000000d;
+  box-shadow: 0 2px 5px rgb(137, 21, 23)0000d;
 }
 
 @media (max-width: 991px) {
@@ -1025,8 +1025,8 @@ a:hover {
   height: 10px;
   width: 10px;
   background: transparent;
-  border-left: 2px solid #000;
-  border-top: 2px solid #000;
+  border-left: 2px solid rgb(137, 21, 23);
+  border-top: 2px solid rgb(137, 21, 23);
   top: 50%;
   -webkit-transform: translateY(-50%) rotate(-45deg);
           transform: translateY(-50%) rotate(-45deg);
@@ -1043,7 +1043,7 @@ a:hover {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   right: -25px;
-  background: #000;
+  background: rgb(137, 21, 23);
   transition: .2s ease;
 }
 
@@ -1086,8 +1086,8 @@ a:hover {
   height: 10px;
   width: 10px;
   background: transparent;
-  border-top: 2px solid #000;
-  border-right: 2px solid #000;
+  border-top: 2px solid rgb(137, 21, 23);
+  border-right: 2px solid rgb(137, 21, 23);
   top: 50%;
   -webkit-transform: translateY(-50%) rotate(45deg);
           transform: translateY(-50%) rotate(45deg);
@@ -1104,7 +1104,7 @@ a:hover {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   left: -25px;
-  background: #000;
+  background: rgb(137, 21, 23);
   transition: .2s ease;
 }
 
@@ -1282,8 +1282,8 @@ a:hover {
 }
 
 .slick-dots li.slick-active button {
-  background: #000;
-  border-color: #000;
+  background: rgb(137, 21, 23);
+  border-color: rgb(137, 21, 23);
 }
 
 .syotimer {
@@ -1956,7 +1956,7 @@ textarea.form-control {
 }
 
 .account .block a {
-  color: #000;
+  color: rgb(137, 21, 23);
 }
 
 .account .block h2 {
@@ -2234,7 +2234,7 @@ textarea.form-control {
 
 .shopping.cart .product-list .product-info a {
   margin-left: 10px;
-  color: #000;
+  color: rgb(137, 21, 23);
   font-weight: 600;
 }
 
