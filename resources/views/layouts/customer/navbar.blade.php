@@ -21,7 +21,7 @@
         <div class="logo text-center">
           <a href="{{ url('/') }}">
             <!-- replace logo here -->
-            <img class="logo-1" src="{{ asset('aida/logo.svg') }}" alt="">
+            <img style="object-fit: contain;height:80%;"  class="logo-1" src="{{ asset('aida/logo2.svg') }}" alt="">
             <!-- <svg width="135px" height="29px" viewBox="0 0 155 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="40" font-family="AustinBold, Austin" font-weight="bold">
                 <g id="Group" transform="translate(-108.000000, -297.000000)" fill="rgb(137, 21, 23)000">
