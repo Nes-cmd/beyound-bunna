@@ -17,7 +17,7 @@ use Yemenpoint\FilamentGoogleMapLocationPicker\Forms\Components\LocationPicker;
 class TravelResource extends Resource
 {
     protected static ?string $model = Travel::class;
-
+    protected static ?string $navigationGroup = 'Travel & Trainings';
     protected static ?string $navigationIcon = 'heroicon-o-ticket';
 
     public static function form(Form $form): Form

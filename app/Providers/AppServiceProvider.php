@@ -37,6 +37,9 @@ class AppServiceProvider extends ServiceProvider
                     ->icon('heroicon-s-trending-up')
                     ->collapsed(),
                 NavigationGroup::make()
+                    ->label('Travel & Trainings')
+                    ->icon('heroicon-s-switch-horizontal'),
+                NavigationGroup::make()
                     ->label('Slider & Deal of day')
                     ->icon('heroicon-s-pencil'),
                 NavigationGroup::make()
