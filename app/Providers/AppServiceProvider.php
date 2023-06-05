@@ -52,9 +52,9 @@ class AppServiceProvider extends ServiceProvider
             ]);
         });
 
-        // $trainingCategories = TrainingCategory::with('trainings')->get();
-        // $menus = \App\Models\MainCategory::with('subCategory')->get();
-        // View::share(['menus' => $menus, 'trainingCategories' => $trainingCategories]);
+        $trainingCategories = TrainingCategory::with('trainings')->get();
+        $menus = \App\Models\MainCategory::with('subCategory')->get();
+        View::share(['menus' => $menus, 'trainingCategories' => $trainingCategories]);
 
     }
 }
