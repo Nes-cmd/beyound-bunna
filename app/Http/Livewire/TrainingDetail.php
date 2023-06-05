@@ -37,9 +37,10 @@ class TrainingDetail extends Component
             'phone' => $this->phone,
             'email' => $this->email,
             'adress' => $this->adress,
+            'training_id' => $this->training->id,
             'user_id' => auth()->check()?auth()->id():null,
         ]);
-        if(session()->has('hasAlert')) $this->emit('makeAlert', ['type' => 'success', 'message' => 'You have booked successfuly!']);
+        $this->emit('makeAlert', ['type' => 'success', 'message' => 'You have booked successfuly!']);
         sleep(4);
         return redirect('trainings');
     }

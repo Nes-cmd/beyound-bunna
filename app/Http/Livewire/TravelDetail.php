@@ -37,6 +37,7 @@ class TravelDetail extends Component
             'phone' => $this->phone,
             'email' => $this->email,
             'adress' => $this->adress,
+            'travel_id' => $this->travel->id,
             'user_id' => auth()->check()?auth()->id():null,
         ]);
         $this->emit('makeAlert', ['type' => 'success', 'message' => 'You have booked successfuly!']);
