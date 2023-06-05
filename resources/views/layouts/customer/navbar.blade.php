@@ -2,9 +2,9 @@
 <section class="top-header">
   <style>
     .logo-1 {
-      width:135px; 
-      height:80px; 
-      object-fit:none;
+      width: 135px;
+      height: 80px;
+      object-fit: none;
       object-position: center;
     }
   </style>
@@ -21,7 +21,7 @@
         <div class="logo text-center">
           <a href="{{ url('/') }}">
             <!-- replace logo here -->
-            <img style="object-fit: contain;height:80%;"  class="logo-1" src="{{ asset('aida/logo2.svg') }}" alt="">
+            <img style="object-fit: contain;height:80%;" class="logo-1" src="{{ asset('aida/logo2.svg') }}" alt="">
             <!-- <svg width="135px" height="29px" viewBox="0 0 155 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="40" font-family="AustinBold, Austin" font-weight="bold">
                 <g id="Group" transform="translate(-108.000000, -297.000000)" fill="rgb(137, 21, 23)000">
@@ -85,7 +85,7 @@
                     <li class="dropdown-header"> <a href="{{ route('shop.list', $menu->id) }}"> {{ $menu->name }} </a></li>
                     <li role="separator" class="divider"></li>
                     @foreach($menu->subCategory as $sub)
-                      <li><a href="{{ route('shop.shop-sub-list', [$menu->name,$sub->id])}}" >{{ $sub->name }}</a></li>
+                    <li><a href="{{ route('shop.shop-sub-list', [$menu->name,$sub->id])}}">{{ $sub->name }}</a></li>
                     @endforeach
                   </ul>
                 </div>
@@ -94,20 +94,51 @@
             </div>
           </li>
 
+          <!-- Training -->
+          <li class="dropdown full-width dropdown-slide">
+            <a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Trainning<span class="tf-ion-ios-arrow-down"></span></a>
+            <div class="dropdown-menu">
+              <div class="row">
+
+                @foreach($trainingCategories as $trainingCategory)
+                <div class="col-sm-3 col-xs-12">
+                  <ul>
+                    <a href="{{ route('trainings') }}" class="dropdown-link" style="padding-left: 14px;">{{ $trainingCategory->title }}</a>
+                    <li role="separator" class="divider"></li>
+                    @foreach($trainingCategory->trainings as $training)
+                    <li><a href="#">{{ $training->title }}</a></li>
+                    @endforeach
+                  </ul>
+                </div>
+                @endforeach
+
+              
+                <!-- Mega Menu -->
+                <div class="col-sm-3 col-xs-12">
+                  <a href="shop.html">
+                    <img class="img-responsive" src="{{ asset('aida/images/shop/header-png.jpg')}}" alt="menu image" />
+                  </a>
+                </div>
+              </div><!-- / .row -->
+            </div><!-- / .dropdown-menu -->
+          </li>
+          <!-- / Training -->
+
           <!-- Travel -->
           <li class="dropdown ">
             <a href="{{ route('travel') }}">Travel</a>
-          </li><!-- / Travel -->
+          </li>
+          <!-- / Travel -->
           <li class="dropdown ">
             <a href="{{ route('shop.contact')}}">Contact Us</a>
           </li>
           <!-- / Travel -->
-          @auth 
+          @auth
           <li class="dropdown ">
             <a href="{{ route('customer.dashboard.index')}}">Account</a>
           </li>
           @endauth
-          @guest 
+          @guest
           <li class="dropdown ">
             <a href="{{ route('login')}}">Login</a>
           </li>

@@ -11,6 +11,8 @@ use App\Http\Livewire\CheckoutComponent;
 use App\Http\Livewire\WishlistConponent;
 use App\Http\Controllers\CustomerDashboardController;
 use App\Http\Livewire\EditProfile;
+use App\Http\Livewire\TrainingComponent;
+use App\Http\Livewire\TrainingDetail;
 use App\Http\Livewire\TravelComponent;
 use App\Http\Livewire\TravelDetail;
 
@@ -18,6 +20,9 @@ Route::view('/', 'customer-shop.coming-soon');
 
 Route::get('travel', TravelComponent::class)->name('travel');
 Route::get('travel-detail/{id}', TravelDetail::class)->name('travel-detail');
+
+Route::get('trainings/{categoryId?}', TrainingComponent::class)->name('trainings');
+Route::get('training-detail/{id}', TrainingDetail::class)->name('training-detail');
 
 Route::get('paypal-success', [OrderController::class,'receivePaymens'])->middleware('auth')->name('paypal.success');
 Route::get('card-success',  [OrderController::class,'receiveCardPayments'])->middleware('auth')->name('card.success');

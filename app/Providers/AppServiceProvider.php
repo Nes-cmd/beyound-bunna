@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\TrainingCategory;
 use Illuminate\Support\ServiceProvider;
 use Filament\Facades\Filament;
 use Filament\Navigation\NavigationGroup;
@@ -48,8 +49,9 @@ class AppServiceProvider extends ServiceProvider
             ]);
         });
 
+        $trainingCategories = TrainingCategory::with('trainings')->get();
         $menus = \App\Models\MainCategory::with('subCategory')->get();
-        View::share('menus', $menus);
+        View::share(['menus' => $menus, 'trainingCategories' => $trainingCategories]);
 
     }
 }

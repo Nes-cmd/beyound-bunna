@@ -79,7 +79,6 @@
       var body = document.getElementById(message.type + "-body");
       body.innerHTML = message.message;
       element.className += " show";
-      console.log(element)
       setTimeout(function() {
         element.className = element.className.replace(" show", "");
       }, 7000);
